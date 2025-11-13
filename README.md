@@ -11,20 +11,6 @@
 
 ---
 
-## 📱 Screenshots
-
-| Splash Screen | Login | Main Menu | Study Timer |
-|--------------|-------|-----------|-------------|
-| 🐝 | 📝 | 🏠 | ⏱️ |
-
-| To-Do List | Add Task | Achievements | Lecture Notes |
-|-----------|----------|--------------|---------------|
-| ✅ | ➕ | 🏆 | 📓 |
-
-*Screenshots coming soon! Stay tuned!* 📸
-
----
-
 ## ✨ Features
 
 ### 📝 **Complete Task Management**
