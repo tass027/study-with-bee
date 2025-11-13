@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set your study goals to stay motivated! 🎯"
+        android:textSize="14sp"
+        android:textColor="#8B7355"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- Weekly Goal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Weekly Goal (days to study)"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2C1A10"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="e.g., 5 days per week">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etWeeklyGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Daily Goal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⏰ Daily Goal (minutes per day)"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2C1A10"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="e.g., 60 minutes per day">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDailyGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Study Goal (total for progress bar) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎯 Total Study Goal (minutes)"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2C1A10"
+        android:layout_marginBottom="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g., 300 minutes total">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etStudyGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

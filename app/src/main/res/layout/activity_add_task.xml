@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_yellow"
+    android:padding="24dp">
+
+    <!-- Scroll container -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Header -->
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_new_task"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_text"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Task Title -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutTaskTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/task_title"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/primary_pink"
+                app:hintTextColor="@color/brown_text"
+                android:layout_below="@id/tvHeader"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTaskTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="#795548" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Task Description -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutTaskDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/task_description"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/primary_pink"
+                app:hintTextColor="@color/brown_text"
+                android:layout_below="@id/layoutTaskTitle"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTaskDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:minLines="2"
+                    android:textColor="@color/black"
+                    android:textColorHint="#795548" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Task Priority -->
+            <TextView
+                android:id="@+id/tvPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priority"
+                android:textStyle="bold"
+                android:textColor="@color/brown_text"
+                android:layout_below="@id/layoutTaskDescription"
+                android:layout_marginBottom="8dp" />
+
+            <RadioGroup
+                android:id="@+id/radioPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/tvPriority"
+                android:layout_marginBottom="16dp">
+
+                <RadioButton
+                    android:id="@+id/priorityLow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/low"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/priorityMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medium"
+                    android:layout_marginStart="16dp" />
+
+                <RadioButton
+                    android:id="@+id/priorityHigh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/high"
+                    android:layout_marginStart="16dp" />
+            </RadioGroup>
+
+            <!-- Due Date Picker -->
+            <TextView
+                android:id="@+id/tvDueDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radioPriority"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:minHeight="48dp"
+                android:text="@string/set_due_date"
+                android:textColor="@color/brown_text"
+                android:textStyle="bold" />
+
+            <!-- Add Task Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_task"
+                android:backgroundTint="@color/button_yellow"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_below="@id/tvDueDate"
+                android:layout_marginTop="24dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

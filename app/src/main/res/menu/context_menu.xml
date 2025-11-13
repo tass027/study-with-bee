@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/context_refresh" android:title="@string/rafra_chir" />
+    <item android:id="@+id/context_view_count" android:title="@string/voir_le_nombre_de_t_ches" />
+</menu>

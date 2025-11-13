@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">StudywithBEE</string>
+    <string name="app_logo">App Logo</string>
+
+    <!-- Authentication -->
+    <string name="hello">Hello!</string>
+    <string name="welcome">Welcome to StudywithBEE</string>
+    <string name="study_goals">Let\'s achieve your study goals together</string>
+
+    <!-- Form Hints -->
+    <string name="full_name_hint">Full Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="enter_your_task">Enter your task</string>
+
+    <!-- Buttons -->
+    <string name="lets_go">Let\'s Go!</string>
+    <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="add_new_task">Add New Task</string>
+
+    <!-- Links -->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+
+    <!-- Menu Items -->
+    <string name="rafra_chir">Refresh</string>
+    <string name="voir_le_nombre_de_t_ches">View Task Count</string>
+    <string name="propos">About</string>
+    <string name="effacer_tout">Clear All</string>
+    <string name="quitter">Quit</string>
+
+    <!-- Tasks -->
+    <string name="add_task">Add Task</string>
+    <string name="view_tasks">View Tasks</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="no_tasks">No tasks yet!\nAdd your first task from the main menu.</string>
+
+    <!-- Reminders -->
+    <string name="add_reminder">Add Reminder</string>
+    <string name="my_reminders">My Reminders</string>
+    <string name="no_reminders">No reminders yet!\nAdd your first reminder above.</string>
+
+    <!-- Study Tools -->
+    <string name="lecture_notes">Lecture Notes</string>
+    <string name="study_timer">Study Timer</string>
+    <string name="lecture_audio">Lecture Audio</string>
+
+    <!-- Audio Controls -->
+    <string name="select_audio">Select Audio</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <!-- Messages -->
+    <string name="task_added">Task added successfully</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="reminder_added">Reminder added successfully</string>
+    <string name="reminder_deleted">Reminder deleted</string>
+
+    <!-- Validation -->
+
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="login_successful">Login successful!</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="back">Back</string>
+    <string name="today_s_tasks">Today\'s Tasks</string>
+    <string name="july_7_2025">July 7, 2025</string>
+    <string name="to_do">To Do</string>
+    <string name="no_tasks_yet">No tasks yet! 🐝</string>
+    <string name="bee_illustration" />
+    <string name="task_title">task_title</string>
+    <string name="task_description">task_description</string>
+    <string name="priority">priority</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+    <string name="low">low</string>
+    <string name="set_due_date">set_due_date</string>
+    <string name="modify_task">modify_task</string>
+    <string name="delete_task">delete_task</string>
+    <string name="clear_all">clear_all</string>
+    <string name="your_achievements">🏆 Your Achievements</string>
+    <string name="your_statistics">📊 Your Statistics</string>
+    <string name="total_tasks">Total Tasks</string>
+    <string name="completed">Completed</string>
+    <string name="_0">0</string>
+    <string-array name="goal_types">
+        <item>Objectif du jour</item>
+        <item>Objectif de la semaine</item>
+    </string-array>
+
+</resources>

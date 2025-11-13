@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stop">⏹️ Stop</string>
+    <string name="pause">⏸️ Pause</string>
+    <string name="notes_are_automatically_saved_when_you_leave_this_screen">Notes are automatically saved when you leave this screen</string>
+    <string name="type_your_lecture_notes_here">Type your lecture notes here...</string>
+    <string name="play">▶️ Play</string>
+    <string name="study_notes">Study Notes</string>
+</resources>
