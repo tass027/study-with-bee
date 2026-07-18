@@ -1,4 +1,4 @@
-# 🐝 Study with Bee - Your Smart Study Companion
+# Study with Bee - Smart Study Companion
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com/)
 [![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
@@ -7,104 +7,103 @@
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)](https://github.com/tass027/study-with-bee)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg)](https://android-arsenal.com/api?level=21)
 
-> 📚 A beautiful and motivating Android app to help students organize tasks, track study time, and achieve their academic goals with gamification features!
+An Android application designed to help students organize tasks, track study time, and achieve their academic goals through structured planning and gamification features.
 
 ---
 
-## ✨ Features
+## Features
 
-### 📝 **Complete Task Management**
-- ✅ Create, edit, and delete tasks with ease
-- 📅 Set due dates and priority levels (High, Medium, Low)
-- 🎨 Beautiful bee-themed UI design
-- 📊 Track completed vs pending tasks
-- 🗓️ Weekly calendar view for task organization
-- ⭐ Priority badges with color coding
+### Task Management
+- Create, edit, and delete tasks
+- Set due dates and priority levels (High, Medium, Low)
+- Track completed versus pending tasks
+- Weekly calendar view for task organization
+- Color-coded priority badges
 
-### ⏱️ **Study Timer (Pomodoro Technique)**
-- ⏰ Customizable timer durations (25, 45, or 60 minutes)
-- ▶️ Start, pause, and reset functionality
-- 📈 Real-time session tracking
-- 🔔 Session completion notifications
-- 💾 Automatic progress saving
-- 📊 Total study time calculator
+### Study Timer (Pomodoro Technique)
+- Customizable timer durations (25, 45, or 60 minutes)
+- Start, pause, and reset functionality
+- Real-time session tracking
+- Session completion notifications
+- Automatic progress saving
+- Total study time calculator
 
-### 🏆 **Achievement & Badge System**
-Unlock badges as you progress:
-- 🐝 **Beginner Bee**: Complete 5 tasks or study 60 minutes
-- 📚 **Study Bee**: Complete 20 tasks or study 300 minutes
-- 🎓 **Expert Bee**: Complete 50 tasks or study 600 minutes
-- 👑 **Master Bee**: Complete 100 tasks or study 1200 minutes
+### Achievement and Badge System
+Badges unlock as the user progresses:
+- **Beginner Bee**: 5 tasks completed or 60 minutes studied
+- **Study Bee**: 20 tasks completed or 300 minutes studied
+- **Expert Bee**: 50 tasks completed or 600 minutes studied
+- **Master Bee**: 100 tasks completed or 1200 minutes studied
 
-### 🎯 **Personalized Goal Setting**
-- 📅 Set weekly study goals (number of days)
-- ⏰ Set daily study goals (minutes per day)
-- 🎯 Set total study time targets
-- 📊 Visual progress bars for goal tracking
-- ✅ Automatic goal achievement detection
+### Personalized Goal Setting
+- Weekly study goals (number of days)
+- Daily study goals (minutes per day)
+- Total study time targets
+- Visual progress bars
+- Automatic goal achievement detection
 
-### 📊 **Statistics & Analytics**
-- 📈 Total tasks created and completion rate
-- ⏱️ Total study time tracking
-- 🔥 Study streak counter
-- 📚 Session history viewer with detailed logs
-- 🏆 Badge unlock progress
-- 📊 Visual progress visualization
+### Statistics and Analytics
+- Total tasks created and completion rate
+- Total study time tracking
+- Study streak counter
+- Session history with detailed logs
+- Badge unlock progress
+- Visual progress reporting
 
-### 📓 **Lecture Notes**
-- 📝 Take and organize lecture notes
-- 🗂️ Categorize notes by subject
-- 🔍 Search functionality
-- 💾 Auto-save feature
+### Lecture Notes
+- Create and organize lecture notes
+- Categorize notes by subject
+- Search functionality
+- Auto-save
 
-### 🔔 **Reminders System**
-- ⏰ Set custom reminders for tasks
-- 🔔 Push notifications for upcoming deadlines
-- 📅 Daily study reminders
+### Reminders
+- Custom reminders for tasks
+- Push notifications for upcoming deadlines
+- Daily study reminders
 
-### 🔐 **User Authentication**
-- 📧 Secure login and registration
-- 👤 User profile management
-- 🔒 Data privacy and security
+### User Authentication
+- Secure login and registration
+- User profile management
+- Data privacy and security
 
 ---
 
-## 🚀 Technologies & Tools Used
+## Technologies and Tools
 
-### **Core Technologies**
+### Core Technologies
 - **Language**: Java
 - **Platform**: Android SDK (API 21+)
 - **Build System**: Gradle
 - **Architecture**: MVC (Model-View-Controller)
 
-### **Android Components**
-- ✅ **Activities**: 10+ activities for different screens
-- 🎨 **Material Design**: Material Components Library
-- 📦 **CardView**: Beautiful card-based layouts
-- 📋 **RecyclerView**: Efficient list displays
-- 🎯 **ConstraintLayout**: Flexible and responsive UI
-- 🗓️ **CalendarView**: Date selection and week view
+### Android Components
+- 10+ activities across distinct screens
+- Material Design component library
+- CardView-based layouts
+- RecyclerView for list displays
+- ConstraintLayout for responsive UI
+- CalendarView for date selection and week view
 
-### **Data Persistence**
-- 💾 **SharedPreferences**: User settings and preferences
-- 📝 **File Storage**: Task and note management
-- 🔄 **JSON**: Data serialization
+### Data Persistence
+- SharedPreferences for user settings and preferences
+- File storage for task and note management
+- JSON for data serialization
 
-### **Key Features**
-- ⏱️ **CountDownTimer**: Study timer implementation
-- 🔔 **Notifications**: Reminder system
-- 🎨 **Custom Views**: Bee-themed UI elements
-- 📊 **ProgressBar**: Visual progress tracking
+### Key Implementations
+- CountDownTimer for the study timer
+- Notification system for reminders
+- Custom views for the app's visual identity
+- ProgressBar components for progress tracking
 
 ---
 
-## 📦 Installation & Setup
+## Installation and Setup
 
 ### Prerequisites
-- **Android Studio** Arctic Fox (2020.3.1) or newer
-- **JDK** 8 or higher
-- **Android SDK** API 21 (Lollipop) or higher
-- **Gradle** 7.0+
+- Android Studio Arctic Fox (2020.3.1) or newer
+- JDK 8 or higher
+- Android SDK API 21 (Lollipop) or higher
+- Gradle 7.0+
 
 ### Installation Steps
 
@@ -128,14 +127,14 @@ cd study-with-bee
    - Ensure Android SDK API 21+ is installed
    - Set up an Android Virtual Device (AVD) or connect a physical device
 
-5. **Run the app**
-   - Click the "Run" button (▶️) or press `Shift + F10`
-   - Select your target device
+5. **Run the application**
+   - Click "Run" or press `Shift + F10`
+   - Select the target device
    - Wait for the app to install and launch
 
 ---
 
-## 🎨 Project Structure
+## Project Structure
 
 ```
 MyApplication/
@@ -157,233 +156,175 @@ MyApplication/
 │   │   ├── SplashActivity.java              # Splash screen
 │   │   ├── StudyTimerActivity.java          # Study timer
 │   │   ├── ToDoListActivity.java            # Task list screen
-│   │   └── ViewTasksActivity.java           # View tasks details
+│   │   └── ViewTasksActivity.java           # Task detail view
 │   └── res/
-│       ├── drawable/
-│       │   ├── bee1.png - bee6.jpg          # Bee illustrations
-│       │   ├── ic_*.xml                     # Icon resources
-│       │   └── *.xml                        # Custom drawables
-│       ├── layout/
-│       │   ├── activity_achievements.xml     # Achievements layout
-│       │   ├── activity_add_task.xml        # Add task layout
-│       │   ├── activity_lecture_notes.xml   # Lecture notes layout
-│       │   ├── activity_login.xml           # Login layout
-│       │   ├── activity_main.xml            # Main menu layout
-│       │   ├── activity_register.xml        # Register layout
-│       │   ├── activity_reminders.xml       # Reminders layout
-│       │   ├── activity_splash.xml          # Splash screen layout
-│       │   ├── activity_study_timer.xml     # Study timer layout
-│       │   ├── activity_todo_list.xml       # To-do list layout
-│       │   ├── activity_view_tasks.xml      # View tasks layout
-│       │   ├── dialog_bee_message.xml       # Bee message dialog
-│       │   ├── dialog_set_goals.xml         # Goals setting dialog
-│       │   └── item_task.xml                # Task item layout
-│       ├── values/
-│       │   ├── colors.xml                   # Color definitions
-│       │   ├── strings.xml                  # String resources
-│       │   ├── styles.xml                   # App styles
-│       │   └── themes/                      # App themes
+│       ├── drawable/                        # Illustrations and icon resources
+│       ├── layout/                          # Screen layouts
+│       ├── values/                          # Colors, strings, styles, themes
 │       └── xml/                             # XML resources
 └── gradle/                                   # Gradle wrapper
 ```
 
 ---
 
-## 🎨 Design & Color Palette
+## Design
 
-### Color Scheme
+### Color Palette
 ```xml
 <!-- Primary Colors -->
-<color name="background_yellow">#FFF9C4</color>      <!-- Light Yellow Background -->
-<color name="primary_pink">#E91E63</color>           <!-- Pink Primary -->
-<color name="button_yellow">#FFD54F</color>          <!-- Button Yellow -->
+<color name="background_yellow">#FFF9C4</color>
+<color name="primary_pink">#E91E63</color>
+<color name="button_yellow">#FFD54F</color>
 
 <!-- Text Colors -->
-<color name="pink_text">#D81B60</color>              <!-- Dark Pink Text -->
-<color name="brown_text">#4E342E</color>             <!-- Brown Text -->
-<color name="black">#000000</color>                  <!-- Black Text -->
+<color name="pink_text">#D81B60</color>
+<color name="brown_text">#4E342E</color>
+<color name="black">#000000</color>
 
 <!-- Additional Colors -->
-<color name="success_green">#81C784</color>          <!-- Completed Tasks -->
-<color name="priority_high">#FF5252</color>          <!-- High Priority -->
-<color name="priority_medium">#FFB74D</color>        <!-- Medium Priority -->
-<color name="priority_low">#81C784</color>           <!-- Low Priority -->
+<color name="success_green">#81C784</color>
+<color name="priority_high">#FF5252</color>
+<color name="priority_medium">#FFB74D</color>
+<color name="priority_low">#81C784</color>
 ```
 
 ### Typography
-- **Headers**: Bold, 24sp
-- **Titles**: Bold, 18sp
-- **Body**: Regular, 14sp
-- **Captions**: Regular, 12sp
+- Headers: Bold, 24sp
+- Titles: Bold, 18sp
+- Body: Regular, 14sp
+- Captions: Regular, 12sp
 
 ### UI Principles
-- ✨ Material Design guidelines
-- 🐝 Consistent bee theme throughout
-- 🎨 Cheerful and motivating color scheme
-- 📱 Responsive layouts for all screen sizes
-- ♿ Accessible touch targets (48dp minimum)
+- Material Design guidelines
+- Consistent visual identity throughout
+- Responsive layouts for all screen sizes
+- Accessible touch targets (48dp minimum)
 
 ---
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Getting Started
 
-1. **Register/Login**
+1. **Register or log in**
    - Launch the app
-   - Create a new account or login
-   - Set up your profile
+   - Create an account or log in
+   - Set up a profile
 
-2. **Create Your First Task**
-   - Tap on "To-Do List" from the main menu
-   - Tap the floating action button (+)
-   - Fill in task details:
-     - Title (required)
-     - Description (optional)
-     - Priority (High/Medium/Low)
-     - Due date
-   - Tap "Add Task"
+2. **Create a first task**
+   - Open "To-Do List" from the main menu
+   - Tap the floating action button
+   - Fill in task details: title (required), description (optional), priority, due date
+   - Confirm with "Add Task"
 
-3. **Start Studying**
-   - Go to "Study Timer"
-   - Select duration (25/45/60 minutes)
-   - Tap "Start" to begin
-   - Focus on your studies!
-   - Timer will notify you when complete
+3. **Start a study session**
+   - Open "Study Timer"
+   - Select a duration (25, 45, or 60 minutes)
+   - Tap "Start"
+   - The timer notifies the user on completion
 
-4. **Track Your Progress**
+4. **Track progress**
    - Complete tasks to earn achievements
-   - View your statistics in "Achievements"
+   - View statistics in "Achievements"
    - Set personal goals
-   - Watch your badges unlock!
+   - Monitor badge progress
 
 ### Advanced Features
 
 #### Setting Goals
-1. Go to "Achievements" screen
-2. Tap "Set Goals" button
-3. Enter:
-   - Weekly goal (days per week)
-   - Daily goal (minutes per day)
-   - Total study goal (total minutes)
+1. Open "Achievements"
+2. Tap "Set Goals"
+3. Enter a weekly goal (days per week), a daily goal (minutes per day), and a total study goal (total minutes)
 4. Tap "Save"
-5. Track progress on achievement screen
+5. Track progress on the achievements screen
 
 #### Managing Tasks
-- **Check/Uncheck**: Tap checkbox to mark complete
-- **Modify**: Select task, tap "Modify Task"
-- **Delete**: Select task, tap "Delete Task"
-- **Clear All**: Tap "Clear All" to remove all tasks
+- **Check/Uncheck**: Tap the checkbox to mark a task complete
+- **Modify**: Select a task, tap "Modify Task"
+- **Delete**: Select a task, tap "Delete Task"
+- **Clear All**: Removes all tasks
 
 #### Viewing History
-1. Go to "Achievements"
+1. Open "Achievements"
 2. Tap "View Progress History"
-3. See all completed:
-   - Study sessions
-   - Total study time
-   - Completed tasks list
+3. Review completed study sessions, total study time, and completed tasks
 
 ---
 
-## 🏆 Achievement Tiers
+## Achievement Tiers
 
 | Badge | Requirements | Description |
-|-------|-------------|-------------|
-| 🐝 **Beginner Bee** | 5 tasks OR 60 minutes | Just starting your journey! |
-| 📚 **Study Bee** | 20 tasks OR 300 minutes | Building good habits! |
-| 🎓 **Expert Bee** | 50 tasks OR 600 minutes | Becoming a master! |
-| 👑 **Master Bee** | 100 tasks OR 1200 minutes | You're a study champion! |
+|-------|--------------|-------------|
+| Beginner Bee | 5 tasks or 60 minutes | Getting started |
+| Study Bee | 20 tasks or 300 minutes | Building consistent habits |
+| Expert Bee | 50 tasks or 600 minutes | Advanced progress |
+| Master Bee | 100 tasks or 1200 minutes | Top-tier engagement |
 
 ---
 
-## 🐛 Known Issues & Roadmap
+## Roadmap
 
-### Known Issues
-- None reported yet! 🎉
-
-### Future Enhancements
-- [ ] 🌙 Dark mode support
-- [ ] ☁️ Cloud sync (Firebase integration)
-- [ ] 📊 Advanced statistics with graphs
-- [ ] 🎵 Custom notification sounds
-- [ ] 📱 Widget support for home screen
-- [ ] 🌍 Multi-language support (French, Arabic, Spanish)
-- [ ] 📤 Export data to CSV/PDF
-- [ ] 👥 Social features (study groups, leaderboards)
-- [ ] 🎨 Customizable themes
-- [ ] 🔄 Recurring tasks support
-- [ ] 📸 Attach images to notes
-- [ ] 🗣️ Voice notes feature
-- [ ] ⌚ Wear OS companion app
+Planned enhancements:
+- Dark mode support
+- Cloud sync (Firebase integration)
+- Advanced statistics with graphs
+- Custom notification sounds
+- Home screen widget support
+- Multi-language support (French, Arabic, Spanish)
+- Data export to CSV/PDF
+- Social features (study groups, leaderboards)
+- Customizable themes
+- Recurring tasks support
+- Image attachments for notes
+- Voice notes
+- Wear OS companion app
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Quick Start
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m '✨ Add: AmazingFeature'`)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m "Add: AmazingFeature"`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Yasser** (tass027)
+**Tasnim Elmehrabi** (tass027)
 - GitHub: [@tass027](https://github.com/tass027)
 - Project: [Study with Bee](https://github.com/tass027/study-with-bee)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- 🎨 Material Design Icons
-- 📚 Android Documentation
-- ⏱️ Pomodoro Technique inspiration
-- 🐝 Bee illustrations
-- 💛 All contributors and users!
-
----
-
-## 📞 Support & Contact
-
-### Get Help
-- 📖 Check the [Wiki](https://github.com/tass027/study-with-bee/wiki)
-- 💬 Open an [Issue](https://github.com/tass027/study-with-bee/issues)
-- ⭐ Star this repo if you find it helpful!
-
-### Found a Bug?
-Please report it [here](https://github.com/tass027/study-with-bee/issues/new?template=bug_report.md)
-
-### Have a Feature Request?
-Suggest it [here](https://github.com/tass027/study-with-bee/issues/new?template=feature_request.md)
+- Material Design Icons
+- Android Documentation
+- Pomodoro Technique
+- All contributors and users
 
 ---
 
-## 📈 Project Stats
+## Support
+
+- Check the [Wiki](https://github.com/tass027/study-with-bee/wiki)
+- Open an [Issue](https://github.com/tass027/study-with-bee/issues) for bugs or feature requests
+
+---
+
+## Project Stats
 
 ![GitHub stars](https://img.shields.io/github/stars/tass027/study-with-bee?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/tass027/study-with-bee?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/tass027/study-with-bee?style=social)
-
----
-
-<div align="center">
-  
-### ⭐ Star this repo if you find it helpful!
-
-**Made with ❤️ and 🐝**
-
-*Happy Studying! 📚✨*
-
-</div>
