@@ -11,14 +11,14 @@ Android app that helps students organize their tasks, run timed study sessions (
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/01-home.png" width="220" alt="Home"><br><sub>Home</sub></td>
-    <td align="center"><img src="docs/screenshots/02-todo-list.png" width="220" alt="To-do list"><br><sub>Task list</sub></td>
-    <td align="center"><img src="docs/screenshots/03-add-task.png" width="220" alt="Add task"><br><sub>Add a task</sub></td>
+    <td align="center"><img src="docs/01-home.png" width="220" alt="Home"><br><sub>Home</sub></td>
+    <td align="center"><img src="docs/02-todo-list.png" width="220" alt="To-do list"><br><sub>Task list</sub></td>
+    <td align="center"><img src="docs/03-add-task.png" width="220" alt="Add task"><br><sub>Add a task</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/04-study-timer.png" width="220" alt="Study timer"><br><sub>Study timer</sub></td>
-    <td align="center"><img src="docs/screenshots/05-achievements.png" width="220" alt="Achievements"><br><sub>Achievements and goals</sub></td>
-    <td align="center"><img src="docs/screenshots/06-lecture-notes.png" width="220" alt="Lecture notes"><br><sub>Lecture notes</sub></td>
+    <td align="center"><img src="docs/04-study-timer.png" width="220" alt="Study timer"><br><sub>Study timer</sub></td>
+    <td align="center"><img src="docs/05-achievements.png" width="220" alt="Achievements"><br><sub>Achievements and goals</sub></td>
+    <td align="center"><img src="docs/06-lecture-notes.png" width="220" alt="Lecture notes"><br><sub>Lecture notes</sub></td>
   </tr>
 </table>
 <!-- TO COMPLETE: take these screenshots on the emulator and put them in docs/screenshots/ -->
